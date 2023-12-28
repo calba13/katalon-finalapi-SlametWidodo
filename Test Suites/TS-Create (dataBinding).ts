@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-Create (dataBinding)</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>439c26a0-7f3c-4691-aca8-ab725ef3d903</testSuiteGuid>
+   <testCaseLink>
+      <guid>87bc2ee9-cbf0-4ece-b154-f54811d64c80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-Create Booking</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4a05c8ff-2669-4b0d-99eb-6625c1656d40</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CreateData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>7e0665df-a834-42d8-91fb-ff3f8a268e5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>2da44e2a-dd94-4727-83b7-135c26b63252</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>totalprice</value>
+         <variableId>47c39e9c-09a6-472a-8b95-d645a637258b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>depositpaid</value>
+         <variableId>dd31d590-bd98-4db1-8daa-6510f8696e43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>checkin</value>
+         <variableId>63ca3b4c-8528-4287-9de9-c28b6e42834f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>checkout</value>
+         <variableId>aea8520f-4419-41ea-b6ae-b9be52e12efe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4a05c8ff-2669-4b0d-99eb-6625c1656d40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>additionalneeds</value>
+         <variableId>0d422030-6132-4497-ad06-77abf5de6f9d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
